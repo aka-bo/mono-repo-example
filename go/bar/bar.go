@@ -5,8 +5,10 @@ import (
 	"fmt"
 )
 
+const Greeting = "Hello"
 const Name = "Bar"
 
 func main() {
+	fmt.Println(Greeting)
 	fmt.Println(foo.Name, Name)
 }
